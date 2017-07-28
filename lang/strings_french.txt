@@ -1,0 +1,71 @@
+<?php
+
+# Copyright (c) 2017 Abdourahmane Fall
+# Translation by Abdourahmane Fall
+# Licensed under the MIT license
+
+$s_plugin_GeneriqueImport_title = 'Generic Import';
+$s_plugin_GeneriqueImport_description = 'Plugin mantis pour récupérer les incidents à travers un service rest ou soap ';
+
+
+$s_plugin_GeneriqueImport_configuration = "Configuration";
+$s_plugin_GeneriqueImport_config_url = "Url de l'endpoint ";
+$s_plugin_GeneriqueImport_config_username = "Login";
+$s_plugin_GeneriqueImport_config_password = "mot de passe";
+$s_plugin_GeneriqueImport_recovery_list_issues = "Liste des issues";
+$s_plugin_GeneriqueImport_config_type = "Type de l'endpoint";
+$s_plugin_GeneriqueImport_config_pooling = "intervalle d'actualisation vers le endpoint";
+$s_plugin_GeneriqueImport_update_configuration = "Enregistrer";
+$s_plugin_GeneriqueImport_configuration_title = "Configuration du plugin généric import";
+$s_plugin_GeneriqueImport_config_label_seconde = "seconde(s)";
+$s_plugin_GeneriqueImport_config_size_per_page = "Taille par page";
+$s_plugin_GeneriqueImport_config_username_api_mantis = "Username api mantis";
+$s_plugin_GeneriqueImport_config_password_api_mantis = "Mot de passe api mantis";
+
+$s_plugin_GeneriqueImport_exception_unknow_implementation= "Type webservice inconnu";
+
+$s_plugin_GeneriqueImport_issue_finded= "trouvés";
+$s_plugin_GeneriqueImport_issue_choice_all= "TOUT";
+$s_plugin_GeneriqueImport_issue_choice_new= "Nouveaux";
+$s_plugin_GeneriqueImport_issue_choice_created= "Créés";
+$s_plugin_GeneriqueImport_issue_table_project= "Projet";
+$s_plugin_GeneriqueImport_issue_table_assigned_to= "Assigner à";
+$s_plugin_GeneriqueImport_issue_table_priority= "Priorité";
+$s_plugin_GeneriqueImport_issue_table_severity= "Sévérité";
+$s_plugin_GeneriqueImport_issue_table_reproductibility= "Reproductibilité";
+$s_plugin_GeneriqueImport_issue_table_category= "Catégorie";
+$s_plugin_GeneriqueImport_issue_table_date_submit= "Date soumission";
+$s_plugin_GeneriqueImport_issue_table_summary= "Résumé";
+$s_plugin_GeneriqueImport_issue_table_resolution= "Résolution";
+$s_plugin_GeneriqueImport_issue_table_action= "Action";
+$s_plugin_GeneriqueImport_issue_table_action_label_create= "Créer";
+$s_plugin_GeneriqueImport_issue_table_action_label_show= "Voir";
+$s_plugin_GeneriqueImport_issue_table_action_label_created= "Recréer";
+$s_plugin_GeneriqueImport_issue_table_action_label_create_loading= "En cours...";
+$s_plugin_GeneriqueImport_issue_table_action_label_complete= "Compléter";
+
+$s_plugin_GeneriqueImport_issue_menu_title= "Import sapin";
+
+$s_plugin_GeneriqueImport_issue_modal_title= "Enter Issue Details";
+$s_plugin_GeneriqueImport_issue_modal_form_category= "Catégorie";
+$s_plugin_GeneriqueImport_issue_modal_form_category_loading= "En cours de chargement...";
+$s_plugin_GeneriqueImport_issue_modal_form_reproducibility= "Reproducibilité";
+$s_plugin_GeneriqueImport_issue_modal_form_severity= "Severité";
+$s_plugin_GeneriqueImport_issue_modal_form_priority= "Priorité";
+$s_plugin_GeneriqueImport_issue_modal_form_resolution= "Resolution";
+$s_plugin_GeneriqueImport_issue_modal_form_data_submision= "Date soumission";
+$s_plugin_GeneriqueImport_issue_modal_form_data_assign_to= "Assigner à";
+$s_plugin_GeneriqueImport_issue_modal_form_data_summary= "Résumé";
+$s_plugin_GeneriqueImport_issue_modal_form_data_description= "Description";
+$s_plugin_GeneriqueImport_issue_modal_form_data_view_status= "Voir l'état";
+$s_plugin_GeneriqueImport_issue_modal_form_data_valider= "Valider";
+
+
+$s_plugin_GeneriqueImport_issue_notification_create= "Création de la tâche effectuée avec succès";
+$s_plugin_GeneriqueImport_issue_notification_ack= "Envoie d'accusé de création  effectué avec succès";
+$s_plugin_GeneriqueImport_issue_notification_error_ack= "Une erreur est apparue lors de l'envoi de l'accusé de création";
+$s_plugin_GeneriqueImport_issue_notification_error= "Une erreur est apparue lors de la création de la tâche";
+
+
+$s_plugin_GeneriqueImport_issue_pagination_previous= "précédent";
+$s_plugin_GeneriqueImport_issue_pagination_next= "suivant";
