@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  <bean id="banqueImpl" class="com.fallphenix.gestioncompte.services.BanqueMetierImple"></bean> -->
+<!--  <bean id="banqueImpl2" class="com.fallphenix.gestioncompte.services.BanqueMetierImple2"></bean> -->
+    <!-- <bean id="businessPackage" class="com.javasampleapproach.springioc.bean.BusinessPackage"></bean>
+    <bean id="customerService" class="com.javasampleapproach.springioc.service.CustomerService">
+        <property name="customerPackage">
+            <ref bean="basicPackage" />
+        </property>
+    </bean> -->
+    
+    
+  <bean class="org.springframework.remoting.jaxws.SimpleJaxWsServiceExporter" id="mySOAP">
+     <property name="baseAddress"  value="http://localhost:8088/Issues"></property> 
+    </bean>
+    
+    
+    
+    
+</beans>

@@ -1,0 +1,46 @@
+[
+  '{{repeat(1, 150)}}',
+  {
+      Id: '{{objectId()}}',
+      "Project":'{{random("BAOBAB", "AFFAIRES JURIDIQUES", "ACCORD DE CLASSEMENT","BPT ORACLE","GPA_RECETTE","SATURNE")}}',
+      "AssignedTo":'{{random("user1", "XX01003", "XX06432","XX06430","XX06448","XX06437","XX06434")}}',
+      "Priority":'{{random("hight", "normal", "low","none","urgent","crash")}}',
+    "Severity":'{{random("minor", "trivial", "text","major","block","feature")}}',
+      "Reproducibility":'{{random("always", "sometimes", "random","unable to reproduce","N/A","have not tried")}}',
+      "Category":'{{random("AUTRE", "General")}}',
+      "DateSubmitted":'{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-dd")}}',
+   
+      "Summary":'{{lorem(10, "words")}}',
+      "Status":'{{random("new", "resolved", "assigned","major","block","feature","assigned","feedback","acknowledged","confirmed","resolved","closed")}}',
+      "Resolution":'{{random("open", "fixed","reopened","unable to reproduce","not fixable","duplicate")}}'
+  }
+]
+
+
+  {
+   
+    
+    "Category": "General",
+
+   
+  },
+  
+  
+  [
+  '{{repeat(1, 150)}}',
+  {
+      Id: '{{objectId()}}',
+      "Project":'{{random("BAOBAB", "AFFAIRES JURIDIQUES", "ACCORD DE CLASSEMENT","BPT ORACLE","GPA_RECETTE","SATURNE")}}',
+      "AssignedTo":'{{random("XX00013","XX00047","XX00145","XX00205","XX00276","XX00285","XX00318","XX00366","XX00369","XX00373","XX00381","XX00390","XX00392","XX00404","XX00417","XX00425","XX00431","XX00435","XX00440","XX00442","XX00492","XX00507","XX00508","XX00528","XX00539","XX00557","XX00570","XX00597","XX00598","XX00603","XX00618","XX0062","XX00632","XX00633","XX00638","XX00639","XX00640","XX00643","XX00644","XX00645","XX00649","XX00650","XX00652","XX00671","XX00672","XX00674","XX00675","XX00679","XX00688","XX00711")}}',
+      "Priority":'{{random("hight", "normal", "low","none","urgent","crash")}}',
+       "Severity":'{{random("minor", "trivial", "text","major","block","feature")}}',
+      "Reproducibility":'{{random("always", "sometimes", "random","unable to reproduce","N/A","have not tried")}}',
+      "DateSubmitted":'{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-dd")}}',   
+      "Summary":'{{lorem(10, "words")}}',
+      "Description":'{{lorem(1, "paragraphs")}}',
+      "Acknowledge":false,
+      "Origine":"easyvista",
+       "Category":'{{random("AUTRE", "General","GAB")}}',
+       "Resolution":'{{random("open", "fixed","reopened","unable to reproduce","not fixable","duplicate")}}'
+  }
+]
